@@ -1,0 +1,15 @@
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/bin/Debug/net6.0/Hello
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/bin/Debug/net6.0/Hello.deps.json
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/bin/Debug/net6.0/Hello.runtimeconfig.json
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/bin/Debug/net6.0/Hello.dll
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/bin/Debug/net6.0/Hello.pdb
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/obj/Debug/net6.0/Hello.csproj.AssemblyReference.cache
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/obj/Debug/net6.0/Hello.GeneratedMSBuildEditorConfig.editorconfig
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/obj/Debug/net6.0/Hello.AssemblyInfoInputs.cache
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/obj/Debug/net6.0/Hello.AssemblyInfo.cs
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/obj/Debug/net6.0/Hello.csproj.CoreCompileInputs.cache
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/obj/Debug/net6.0/Hello.dll
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/obj/Debug/net6.0/refint/Hello.dll
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/obj/Debug/net6.0/Hello.pdb
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/obj/Debug/net6.0/Hello.genruntimeconfig.cache
+/Users/sandipshrestha/Downloads/gitHub/cSharp/Hello/Hello/obj/Debug/net6.0/ref/Hello.dll
