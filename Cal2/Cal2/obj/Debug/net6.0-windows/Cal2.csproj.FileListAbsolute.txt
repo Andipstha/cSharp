@@ -1,0 +1,17 @@
+D:\SanDip\cSharp\Cal2\Cal2\bin\Debug\net6.0-windows\Cal2.exe
+D:\SanDip\cSharp\Cal2\Cal2\bin\Debug\net6.0-windows\Cal2.deps.json
+D:\SanDip\cSharp\Cal2\Cal2\bin\Debug\net6.0-windows\Cal2.runtimeconfig.json
+D:\SanDip\cSharp\Cal2\Cal2\bin\Debug\net6.0-windows\Cal2.dll
+D:\SanDip\cSharp\Cal2\Cal2\bin\Debug\net6.0-windows\Cal2.pdb
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\Cal2.csproj.AssemblyReference.cache
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\Cal2.Form1.resources
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\Cal2.csproj.GenerateResource.cache
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\Cal2.GeneratedMSBuildEditorConfig.editorconfig
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\Cal2.AssemblyInfoInputs.cache
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\Cal2.AssemblyInfo.cs
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\Cal2.csproj.CoreCompileInputs.cache
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\Cal2.dll
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\refint\Cal2.dll
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\Cal2.pdb
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\Cal2.genruntimeconfig.cache
+D:\SanDip\cSharp\Cal2\Cal2\obj\Debug\net6.0-windows\ref\Cal2.dll

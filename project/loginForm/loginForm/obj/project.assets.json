@@ -8,24 +8,33 @@
     "net7.0": []
   },
   "packageFolders": {
-    "/Users/sandipshrestha/.nuget/packages/": {}
+    "C:\\Users\\student3\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/sandipshrestha/Downloads/gitHub/cSharp/project/loginForm/loginForm/loginForm.csproj",
+      "projectUniqueName": "D:\\SanDip\\cSharp\\project\\loginForm\\loginForm\\loginForm.csproj",
       "projectName": "loginForm",
-      "projectPath": "/Users/sandipshrestha/Downloads/gitHub/cSharp/project/loginForm/loginForm/loginForm.csproj",
-      "packagesPath": "/Users/sandipshrestha/.nuget/packages/",
-      "outputPath": "/Users/sandipshrestha/Downloads/gitHub/cSharp/project/loginForm/loginForm/obj/",
+      "projectPath": "D:\\SanDip\\cSharp\\project\\loginForm\\loginForm\\loginForm.csproj",
+      "packagesPath": "C:\\Users\\student3\\.nuget\\packages\\",
+      "outputPath": "D:\\SanDip\\cSharp\\project\\loginForm\\loginForm\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/sandipshrestha/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\student3\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -49,20 +58,11 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
