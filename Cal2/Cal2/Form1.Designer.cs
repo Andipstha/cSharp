@@ -51,6 +51,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Location = new System.Drawing.Point(12, 12);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -60,7 +61,8 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(24, 82);
+            this.button1.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button1.Location = new System.Drawing.Point(35, 93);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(60, 60);
             this.button1.TabIndex = 1;
@@ -70,7 +72,8 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(90, 82);
+            this.button2.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button2.Location = new System.Drawing.Point(101, 93);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(60, 60);
             this.button2.TabIndex = 1;
@@ -80,7 +83,8 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(156, 82);
+            this.button3.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.Location = new System.Drawing.Point(167, 93);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(60, 60);
             this.button3.TabIndex = 1;
@@ -90,7 +94,8 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(222, 82);
+            this.button4.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button4.Location = new System.Drawing.Point(233, 225);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(60, 60);
             this.button4.TabIndex = 1;
@@ -100,7 +105,8 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(24, 148);
+            this.button5.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.Location = new System.Drawing.Point(35, 159);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(60, 60);
             this.button5.TabIndex = 1;
@@ -110,7 +116,8 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(90, 148);
+            this.button6.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button6.Location = new System.Drawing.Point(101, 159);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(60, 60);
             this.button6.TabIndex = 1;
@@ -120,7 +127,8 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(156, 148);
+            this.button7.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button7.Location = new System.Drawing.Point(167, 159);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(60, 60);
             this.button7.TabIndex = 1;
@@ -130,7 +138,8 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(222, 148);
+            this.button8.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button8.Location = new System.Drawing.Point(233, 357);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(60, 60);
             this.button8.TabIndex = 1;
@@ -140,7 +149,8 @@
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(24, 214);
+            this.button9.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button9.Location = new System.Drawing.Point(35, 225);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(60, 60);
             this.button9.TabIndex = 1;
@@ -150,7 +160,8 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(90, 214);
+            this.button10.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button10.Location = new System.Drawing.Point(101, 225);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(60, 60);
             this.button10.TabIndex = 1;
@@ -160,7 +171,8 @@
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(156, 214);
+            this.button11.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button11.Location = new System.Drawing.Point(167, 225);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(60, 60);
             this.button11.TabIndex = 1;
@@ -170,7 +182,8 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(222, 214);
+            this.button12.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button12.Location = new System.Drawing.Point(233, 291);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(60, 60);
             this.button12.TabIndex = 1;
@@ -180,9 +193,10 @@
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(24, 280);
+            this.button13.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button13.Location = new System.Drawing.Point(35, 291);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(192, 60);
+            this.button13.Size = new System.Drawing.Size(60, 60);
             this.button13.TabIndex = 1;
             this.button13.Text = "0";
             this.button13.UseVisualStyleBackColor = true;
@@ -190,9 +204,10 @@
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(222, 280);
+            this.button16.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button16.Location = new System.Drawing.Point(35, 357);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(60, 60);
+            this.button16.Size = new System.Drawing.Size(192, 60);
             this.button16.TabIndex = 1;
             this.button16.Text = "=";
             this.button16.UseVisualStyleBackColor = true;
@@ -200,39 +215,49 @@
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(24, 346);
+            this.button17.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button17.Location = new System.Drawing.Point(233, 159);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(60, 60);
             this.button17.TabIndex = 1;
-            this.button17.Text = "button1";
+            this.button17.Text = "/";
             this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.btndivide_Click);
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(90, 346);
+            this.button18.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button18.Location = new System.Drawing.Point(101, 291);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(60, 60);
             this.button18.TabIndex = 1;
-            this.button18.Text = "button1";
+            this.button18.Text = "0 0";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button16_Click);
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(156, 346);
+            this.button19.Font = new System.Drawing.Font("Showcard Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button19.Location = new System.Drawing.Point(167, 291);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(60, 60);
             this.button19.TabIndex = 1;
-            this.button19.Text = "button1";
+            this.button19.Text = ".";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button15_Click);
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(222, 346);
+            this.button20.BackColor = System.Drawing.Color.PaleVioletRed;
+            this.button20.Font = new System.Drawing.Font("Showcard Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button20.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.button20.Location = new System.Drawing.Point(233, 93);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(60, 60);
             this.button20.TabIndex = 1;
-            this.button20.Text = "button1";
-            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Text = "C";
+            this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.btnC_Click);
             // 
             // Form1
             // 
