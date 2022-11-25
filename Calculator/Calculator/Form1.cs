@@ -134,52 +134,57 @@ namespace Calculator
 
         private void button12_Click(object sender, EventArgs e)
         {
-            //GetResultValue();
+            GetResultValue();
             //calculator = Convert.ToDecimal(textBox1.Text);
             operate = "x";
-            textBox1.Text = "x";
+            textBox1.Text = textBox1.Text + "x";
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            //GetResultValue();
+            GetResultValue();
             operate = "+";
-            textBox1.Text = "+";
-        }
-
-        private void button19_Click(object sender, EventArgs e)
-        {
-            //GetResultValue();
-            operate = "/";
-            textBox1.Text = "/";
-            
-        }
-
-        private void button18_Click(object sender, EventArgs e)
-        {
-            //GetResultValue();
-            operate = "%";
-            textBox1.Text = "%";
+            textBox1.Text = textBox1.Text + "+";
         }
 
         private void button14_Click(object sender, EventArgs e)
         {
-            //GetResultValue();
+            GetResultValue();
             operate = "-";
-            textBox1.Text = "-";
+            textBox1.Text = textBox1.Text + "-";
 
         }
 
+        private void button15_Click(object sender, EventArgs e)
+        {
+            GetResultValue();
+            operate = "/";
+            textBox1.Text = textBox1.Text + "/";
+            
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            GetResultValue();
+            operate = "%";
+            textBox1.Text = "%";
+        }
         
 
         private void button17_Click(object sender, EventArgs e)
         {
 
         }
-        private void button15_Click(object sender, EventArgs e)
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+        }
+
+        private void button19_Click(object sender, EventArgs e)
         {
             decimal firstNum = calculation;
-            decimal secondNum = Convert.ToDecimal(textBox1.Text);
+            sdecimal secondNum = Convert.ToDecimal(textBox1.Text);
             switch(operate)
             {
                 case "-":
@@ -196,18 +201,15 @@ namespace Calculator
                     textBox1.Text = (firstNum * secondNum).ToString();
                     break;
                 case "/":
-                    calculation = (firstNum - secondNum);
-                    textBox1.Text = (firstNum - secondNum).ToString();
+                    calculation = (firstNum / secondNum);
+                    textBox1.Text = (firstNum / secondNum).ToString();
+                    break;
+                case "%":
+                    calculation = (firstNum % secondNum);
+                    textBox1.Text = (firstNum % secondNum).ToString();
                     break;
             }
         }
-
-        private void button16_Click(object sender, EventArgs e)
-        {
-            textBox1.Clear();
-        }
-
-       
 
         public void GetResultValue()
         {
@@ -216,6 +218,5 @@ namespace Calculator
                 calculation = Convert.ToDecimal(textBox1.Text);
             }
         }
-
     }
 }
