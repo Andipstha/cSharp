@@ -1,3 +1,5 @@
+--create database bit3sem
+
 Use bit3rdsem
 go
 
