@@ -299,5 +299,20 @@ namespace Calculator
                 MessageBox.Show("Update Failed!");
             }
         }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            dataGridView1.Rows.Add(textBox3.Text, textBox4.Text, textBox5.Text );
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
