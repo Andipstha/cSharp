@@ -5,11 +5,14 @@ using System.Data.SqlClient;
 namespace employee
 {
     public partial class Form1 : Form
-    {
+    {/*
         private SqlConnection con = new SqlConnection(@"Data Source = SANDIPSHRESDC60\SQLEXPRESS;
                                                 Initial Catalog=empl_details;
                                                 Integrated Security=True");
-
+        */
+        SqlConnection con = new SqlConnection(@"Data Source = DESKTOP-TSU4EHG\SQLEXPRESS;
+                                                Initial Catalog=empl_details;
+                                                user id=sa;password=kist@123;");
         SqlCommand cmd;
         SqlDataAdapter adpt;
         DataTable dt;
@@ -32,10 +35,9 @@ namespace employee
 
         private void displayData_Click(object sender, EventArgs e)
         {
-            string ConnectionString = (@"Data Source = SANDIPSHRESDC60\SQLEXPRESS;
+            SqlConnection con = new SqlConnection(@"Data Source = DESKTOP-TSU4EHG\SQLEXPRESS;
                                                 Initial Catalog=empl_details;
-                                                Integrated Security=True");
-            SqlConnection con = new SqlConnection(ConnectionString);
+                                                user id=sa;password=kist@123;");
 
             con.Open();
 
@@ -57,20 +59,20 @@ namespace employee
         {
             con.Open();
            
-            string query = "update Student set name='"+ txtUserName.Text +"', address='"+ txtUserAddr.Text +"' ,salary ='"+ txtUserSalary.Text +"', where id = '"+ txtUserID.Text +"' ";
+            string query = "update employee set name='" + txtUserName.Text +"', address='"+ txtUserAddr.Text +"' ,salary ='"+ txtUserSalary.Text +"' where emp_id = '"+ txtUserID.Text +"' ";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.ExecuteNonQuery();
-            MessageBox.Show("saved successfully");
+            MessageBox.Show("Update successfully");
             con.Close();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
             con.Open();
-            string query = "delete from Student where id = '"+ txtUserID.Text +"'";
+            string query = "delete from employee where id = '" + txtUserID.Text +"'";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.ExecuteNonQuery();
-            MessageBox.Show("saved successfully");
+            MessageBox.Show("Delete successfully");
             con.Close();
         }
     }
