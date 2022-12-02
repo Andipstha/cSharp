@@ -131,5 +131,18 @@ namespace employee
 
 
         }
+
+        private void test_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow data = dataGridView1.CurrentRow;
+            string name = data.Cells["name"].Value.ToString();
+            string address = data.Cells["address"].Value.ToString();
+            string salary = data.Cells["salary"].Value.ToString();
+
+            txtUserName.Text = name;
+            txtUserAddr.Text = address;
+            txtUserSalary.Text = salary;
+
+        }
     }
 }
