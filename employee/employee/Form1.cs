@@ -24,6 +24,7 @@ namespace employee
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            /*
             con.Open();
             string query = "Insert into employee values('"+ txtUserName.Text
                 +"','"+ txtUserAddr.Text +"','"+ txtUserSalary.Text +"')";
@@ -31,6 +32,21 @@ namespace employee
             cmd.ExecuteNonQuery();
             MessageBox.Show("saved successfully");
             con.Close();
+            */
+            con.Open();
+            string query = "Insert into employee " + "(name,address,salary)" + "values (@txtUserName,@txtUserAddr,@txtUserSalary)";
+
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandText = query;
+            cmd.Parameters.AddWithValue("@name", txtUserName.Text);
+            cmd.Parameters.AddWithValue("@address", txtUserAddr.Text);
+            cmd.Parameters.AddWithValue("@salary", txtUserSalary.Text);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+
+
+
         }
 
         private void displayData_Click(object sender, EventArgs e)
@@ -69,11 +85,28 @@ namespace employee
         private void btnDelete_Click(object sender, EventArgs e)
         {
             con.Open();
-            string query = "delete from employee where id = '" + txtUserID.Text +"'";
+            string query = "delete from employee where id = '"+ txtUserID.Text +"'";
             SqlCommand cmd = new SqlCommand(query, con);
             cmd.ExecuteNonQuery();
             MessageBox.Show("Delete successfully");
             con.Close();
+        }
+
+        private void btnInsert_Click(object sender, EventArgs e)
+        {
+            con.Open();
+            string query = "Insert into student " + "(name,address,contact,college)" + "values(@student_name,@address,@salary)";
+
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandText = query;
+            cmd.Parameters.AddWithValue("@name", txtUserName.Text);
+            cmd.Parameters.AddWithValue("@address", txtUserAddr.Text);
+            cmd.Parameters.AddWithValue("@salary", txtUserSalary.Text);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+
+
         }
     }
 }
