@@ -60,10 +60,10 @@
             this.dataGridView1.BackgroundColor = System.Drawing.Color.PeachPuff;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(16, 149);
+            this.dataGridView1.Location = new System.Drawing.Point(16, 166);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowTemplate.Height = 25;
-            this.dataGridView1.Size = new System.Drawing.Size(489, 289);
+            this.dataGridView1.Size = new System.Drawing.Size(489, 272);
             this.dataGridView1.TabIndex = 1;
             // 
             // btnSave
@@ -215,7 +215,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 41);
             this.button2.TabIndex = 12;
-            this.button2.Text = "Save";
+            this.button2.Text = "Test";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.test_Click);
             // 

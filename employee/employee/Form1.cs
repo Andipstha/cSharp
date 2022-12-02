@@ -50,7 +50,7 @@ namespace employee
         }
 
         private void displayData_Click(object sender, EventArgs e)
-        {   /*
+        {
             SqlConnection con = new SqlConnection(@"Data Source = DESKTOP-TSU4EHG\SQLEXPRESS;
                                                 Initial Catalog=empl_details;
                                                 user id=sa;password=kist@123;");
@@ -68,8 +68,8 @@ namespace employee
             dataGridView1.DataSource = table;
 
             con.Close();
-            */
-            try
+
+            /*try
             {
                 string query = "Select * from employee";
                 SqlCommand sqlCommand = new SqlCommand(query, con);
@@ -91,7 +91,7 @@ namespace employee
             catch (Exception ex)
             {
                 MessageBox.Show("Error : " + ex.InnerException);
-            }
+            }*/
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
