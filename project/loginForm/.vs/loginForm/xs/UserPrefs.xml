@@ -1,6 +1,11 @@
 ﻿<Properties StartupConfiguration="{E78446A6-6355-4E61-B2EC-16F68ECD5693}|https">
-  <MonoDevelop.Ide.ItemProperties.loginForm PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.loginForm PreferredExecutionTarget="/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="loginForm/Program.cs">
     <Files>
       <File FileName="loginForm/Program.cs" Line="1" Column="1" />
@@ -9,17 +14,10 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="loginForm" expanded="True">
-            <Node name="loginForm" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="loginForm" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
