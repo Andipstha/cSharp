@@ -51,7 +51,7 @@ namespace employee
 
         private void displayData_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source = DESKTOP-TSU4EHG\SQLEXPRESS;
+            /*SqlConnection con = new SqlConnection(@"Data Source = DESKTOP-TSU4EHG\SQLEXPRESS;
                                                 Initial Catalog=empl_details;
                                                 user id=sa;password=kist@123;");
 
@@ -67,9 +67,9 @@ namespace employee
 
             dataGridView1.DataSource = table;
 
-            con.Close();
+            con.Close();*/
 
-            /*try
+            try
             {
                 string query = "Select * from employee";
                 SqlCommand sqlCommand = new SqlCommand(query, con);
@@ -80,10 +80,10 @@ namespace employee
                 int sn = 1;
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
-                    string id = dt.Rows[i]["column1"].ToString();
-                    string name = dt.Rows[i]["column2"].ToString();
-                    string address = dt.Rows[i]["column3"].ToString();
-                    string salary = dt.Rows[i]["column4"].ToString();
+                    string id = dt.Rows[i]["emp_id"].ToString();
+                    string name = dt.Rows[i]["name"].ToString();
+                    string address = dt.Rows[i]["address"].ToString();
+                    string salary = dt.Rows[i]["salary"].ToString();
                     dataGridView1.Rows.Add(sn++, id, name, address, salary);
 
                 }
@@ -91,7 +91,7 @@ namespace employee
             catch (Exception ex)
             {
                 MessageBox.Show("Error : " + ex.InnerException);
-            }*/
+            }
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
